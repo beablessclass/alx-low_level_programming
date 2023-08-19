@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_remaining_days - takesmany days are
- * left in the yeataking leyears into account
- * @month: month innumberformat
- * @day: dayofyear
+ * print_remaining_days - takesate and prin many days are
+ * left in the year, takip years intoaccount
+ * @month: monthinnumberformat
+ * @day: day of year
  * @year: year
  * Return: void
  */
