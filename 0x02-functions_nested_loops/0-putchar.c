@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -  Outputs _putchar and-then-moves-to-a-new-line.
+ * main -  Outputs _putmoves-tosf-a-
  * Return: Always 0 (Success)
  */
 int main(void)
