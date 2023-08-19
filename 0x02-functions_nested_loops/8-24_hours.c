@@ -1,22 +1,28 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * jack_bauer - rintsforma: HH:MM
- * Return: thenumbers.
+ * jack_bauer - prints everyminuteof the dayofJack Bauer
+ * starting from 00:00 to 23:59
  */
 void jack_bauer(void)
 {
-	int h, m;
+	int i, j;
 
-	for (h = 0; h < 24; h++)
+	i = 0;
+
+	while (i < 24)
 	{
-		for (m = 0; m < 60; m++)
+		j = 0;
+		while (j < 60)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 			_putchar('\n');
+			j++;
 		}
+		i++;
 	}
 }
