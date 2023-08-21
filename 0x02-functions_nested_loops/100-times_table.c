@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table - Shows the multiplication table for the given value of n, starting from 0.
+ * print_times_table - Displays the multiplication table for 'n' from 0.
  * @n: The specified number for the times table.
  */
 void print_times_table(int n)
