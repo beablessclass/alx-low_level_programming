@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - Generates the depiction of every minute in a day for Jack Bauer,
+ * jack_bauer - Visualizes Jack Bauer's day in minutes,
  * starting from 00:00 to 23:59.
  */
 void jack_bauer(void)
