@@ -1,28 +1,31 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - see if the last digit of a randomly generated no
+ * is greater than 5, less than 5, or equal to zero.
+ * Return: 0 on success
  */
 int main(void)
 {
 	int n;
-	int last_digit;
+	char last[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = n % 10;
-
-	if (last_digit > 5)
-		printf("Last digit of %d is %d and is greater than 5\n",
-		       n, last_digit);
-	else if (last_digit == 0)
-		printf("Last digit of %d is %d and is 0\n", n, last_digit);
+	printf("%s %d is %d and is ", last, n, n % 10);
+	if (n % 10 > 5)
+	{
+		printf("greater than 5\n");
+	}
+	else if (n % 10 == 0)
+	{
+		printf("0\n");
+	}
 	else
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",
-		       n, last_digit);
-
+	{
+		printf("less than 6 and not 0\n");
+	}
 	return (0);
+
 }
