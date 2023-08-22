@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Beginning of the script
+ * main - Begin the script
  * Description: Obtain a random number and display it
  * classification as positive, negative, or zero
  * Return: 0
