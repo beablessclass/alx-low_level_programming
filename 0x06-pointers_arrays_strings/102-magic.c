@@ -8,17 +8,9 @@ int main(void)
 
   a[2] = 1024;
   p = &n;
-  /*
-   * writehere...
-   * Remember:
-   * - you  not allowed to- use a
-   * - you  not allowed to modify p
-   * - only one statement-
-   * - you are not allowed- to code anything else than this line of code
-   */
-  *(p + 5) = 98;
-  /* ...so that this prints 98\n */
-  printf("a[2] = %d\n", a[2]);
+  
+  *(p + 5) = 98; // This line modifies memory in a way that affects a[2]
+  
+  printf("a[2] = %d\n", a[2]); // This should now print "a[2] = 98"
   return (0);
 }
-
