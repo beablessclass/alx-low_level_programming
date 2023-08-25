@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatfgdfsgsd 
+ * _strcat - concatfgdfsgsd
  * @dest: strinddf
  * @src: strindssgdgs
  *
- * Return: a pointer to theresultingstring
+ * Return: Apointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
