@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Task , printing  allthe numbers of base 16.
+ * main - Task , printing  all the numbers of base 16.
 (*
  * Return: 0 on success
  */

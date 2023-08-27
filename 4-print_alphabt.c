@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Display allthe alphabet with exception of  letters q and e.
+ * main - Display all the alphabet with exception of  letters q and e.
 (*
  * Return: 0 on success
  */

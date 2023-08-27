@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Check ifthe last digit of a randomly generated number
+ * main - Check if the last digit of a randomly generated number
  * is greater than 5, less than 5, or equal to zero.
  * Return: 0 on success
  */
