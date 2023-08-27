@@ -1,18 +1,20 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - Point-of-entry
- * Return: Always 0 (Success)
+ * main - main function
+ * Description:printingsingle digits numbers of base 10 starting from 01
+ * Return: 0
  */
+
 int main(void)
 {
-	int i;
+	int x;
 
-	for (i = '0'; i <= '9'; i++)
+	for (x = 48; x <= 57; x++)
 	{
-		putchar(i);
+		putchar(x);
 	}
 	putchar('\n');
+
 	return (0);
 }

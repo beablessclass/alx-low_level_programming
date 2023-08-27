@@ -1,42 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - print comb5
- * combination no duplicates
- * Return: 0 on success
+ * main - Printing combinations oftwo two-digit numbers.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int ifirstt;
-	int i;
-	int jfirst;
-	int j;
+	int nb1, nb2;
 
-	for (ifirstt = 48; ifirstt < 58; ifirstt++)
+	for (nb1 = 0; nb1 <= 98; nb1++)
 	{
-		for (i = 48; i < 58; i++)
+		for (nb2 = nb1 + 1; nb2 <= 99; nb2++)
 		{
-			j = i + 1;
-			jfirst = ifirstt;
-			for (; jfirst < 58; jfirst++)
-			{
-				for (; j < 58; j++)
-				{
-					putchar(ifirstt);
-					putchar(i);
-					putchar(' ');
-					putchar(jfirst);
-					putchar(j);
-					if (ifirstt != 57 || jfirst != 57 || i != 56 || j != 57)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				j = 48;
-			}
+			putchar((nb1 / 10) + '0');
+			putchar((nb1 % 10) + '0');
+			putchar(' ');
+			putchar((nb2 / 10) + '0');
+			putchar((nb2 % 10) + '0');
+
+			if (nb1 == 98 && nb2 == 99)
+				break;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
