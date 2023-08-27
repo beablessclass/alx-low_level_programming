@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - starting point of script
- * Description: Obtain a random number and display it
+ * Description: Obtain random number, display it
  * classification as positive, negative, or zero
  * Return: 0
  */
