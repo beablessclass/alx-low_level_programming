@@ -1,11 +1,17 @@
 #include <stdio.h>
 /**
- * main - Print each digit in the num from 0 to 9.
-(*
- * Return: 0 on success
+ * main - main function
+ * Description:printingdigit number
+ * Return: 0
  */
 int main(void)
 {
-	printf("0123456789\n");
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
+		printf("%d", x);
+	}
+	putchar('\n');
 	return (0);
 }
